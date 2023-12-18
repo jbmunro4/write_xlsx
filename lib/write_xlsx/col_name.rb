@@ -33,7 +33,7 @@ class ColName
       col_str = col_letter + col_str
 
       # Get the next order of magnitude.
-      col = (col - 1) / 26
+      col = ((col - 1) / 26).floor
     end
 
     col_str
